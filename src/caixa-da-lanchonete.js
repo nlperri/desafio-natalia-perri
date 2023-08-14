@@ -1,9 +1,9 @@
 import { menu } from "./menu";
 import { CartRepository } from "./repositories/cart-repository";
-import { CartService } from "./service/cart-service";
 import { CartController } from "./controller/cart-controller";
-import { OrderService } from "./service/order-service";
-import { PaymentService } from "./service/paymentService";
+import { OrderService } from "./services/order-service";
+import { PaymentService } from "./services/paymentService";
+import { CartService } from "./services/cart-service";
 
 class CaixaDaLanchonete {
   calcularValorDaCompra(metodoDePagamento, itens) {
